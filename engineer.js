@@ -9,3 +9,5 @@ class Engineer extends CommonTeamInfo {
       console.log(this.github);
     }
   }
+
+  module.exports = Engineer;

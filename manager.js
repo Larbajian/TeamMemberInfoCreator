@@ -7,6 +7,16 @@ class Manager extends CommonTeamInfo {
   }
   printManagerAdd() {
     console.log(this.office);
-  }
+  };
 }
 
+//---------------Manager class working--------------//
+
+const officenum = 405;
+
+const newman = new Manager(007, 'jow', 'email', officenum);
+
+console.log('manager');
+newman.printInfo();
+newman.printManagerAdd();
+module.exports = Manager;

@@ -9,3 +9,5 @@ class Intern extends CommonTeamInfo {
     }
   }
   
+  module.exports = Intern;
+  

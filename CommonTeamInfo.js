@@ -1,3 +1,4 @@
+
 class CommonTeamInfo {
   constructor(name, id, email) {
     this.name = name;
@@ -6,7 +7,7 @@ class CommonTeamInfo {
   }
   printInfo()
 {
-  console.log(`Name: ${this.name}/n ID: ${this.id}/n Email: ${this.email}`);
+  console.log(`Name: ${this.name} ID: ${this.id} Email: ${this.email}`);
 }
 }
 
