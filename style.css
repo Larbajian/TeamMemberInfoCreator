@@ -1,0 +1,7 @@
+.box-layout {
+
+    display: flex;
+    justify-content: space-around;
+    border: 10% black solid;
+    border-radius: 10%;
+}
